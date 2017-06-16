@@ -1,0 +1,8 @@
+[2017/06/16 10:52:17 CST] [INFO] (main.main:83) ct(version:1.6) start...
+[2017/06/16 10:52:17 CST] [INFO] (main.readConf:25) begin to read conf file [./conf/ct_prod.conf]
+[2017/06/16 10:52:17 CST] [INFO] (main.main:101) the NetworkAddr is 0.0.0.0:889
+[2017/06/16 10:52:17 CST] [INFO] (main.getTaskList:49) request the url [http://192.168.1.42:8888/cttask/cttask/task/api?host_ip=192.168.217.10],the http get resp is [{"TaskId":"209","CmdLine":"sh \/home\/work\/backup_log\/bin\/auto_backup.sh  >\/dev\/null 2>&1","TrigerTime":"3 * * * * ","RetryCounter":"1","WaitTime":"0","ExecTimeout":"0","Account":"work"}]
+[2017/06/16 10:52:17 CST] [INFO] (main.NewAndStartCron:10) create cron[trigtime:3 * * * * , func:%!s(func()=0x40b720), taskName:209]
+[2017/06/16 10:52:17 CST] [INFO] (main.main:128) create task [taskid:209] succ...
+[2017/06/16 10:52:17 CST] [INFO] (main.main:130) put all receive tasks into map, length is:1
+[2017/06/16 10:52:17 CST] [INFO] (main.main:137) thrift server started in [0.0.0.0:889]
